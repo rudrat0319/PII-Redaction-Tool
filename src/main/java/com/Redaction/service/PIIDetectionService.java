@@ -27,7 +27,7 @@ public class PIIDetectionService {
                         "email",
                         m.group(),
                         1.0,
-                        -1, -1, -1, -1, -1 // coordinates will be set later for PDF only
+                        -1, -1, -1, -1, -1
                 ));
             }
         }
@@ -126,3 +126,4 @@ public class PIIDetectionService {
         return result;
     }
 }
+
